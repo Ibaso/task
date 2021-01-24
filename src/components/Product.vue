@@ -1,11 +1,11 @@
 <template>
     <div class="product" >
 
-        <div style="float: left; text-align: center; " class="">
-            <img :src="product.url" height="70" width="80" style=""/>
+        <div style="float: left; text-align: center; ">
+            <img :src="product.url" height="70" width="80"/>
         </div>
 
-        <div style="float: left;" class="">
+        <div style="float: left;" >
 
             <div>{{product.name}}</div>
             <div>{{product.cost}} so'm</div>
@@ -37,10 +37,8 @@
         font: 20px Arial, sans-serif;
         margin: 5px;
     }
-    .product:hover{
-        background: rgb(116,205,165);
-    }
+
     .product:active{
-        background: #42b983;
+        border: 1px solid black;
     }
 </style>

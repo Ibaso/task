@@ -1,21 +1,20 @@
 <template>
   <div id="app">
-
     <shop/>
   </div>
 </template>
 
 <script>
   import Shop from "./components/Shop";
-
 export default {
   name: 'App',
   components: {
     Shop
-
   }
 }
 </script>
+
+
 
 <style>
 #app {
@@ -27,3 +26,4 @@ export default {
   margin-top: 60px;
 }
 </style>
+

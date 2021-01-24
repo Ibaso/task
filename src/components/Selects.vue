@@ -26,7 +26,7 @@
         border-radius: 5px;
         max-width: 100%;
         font: 25px Arial, sans-serif;
-        margin: 15px;
+        margin-bottom: 15px;
         cursor: pointer;
 
     }

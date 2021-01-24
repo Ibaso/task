@@ -11,7 +11,8 @@
         components: {Selects},
         methods:{
             clicked(id){
-                this.$emit('clicked1',id)
+
+                this.$emit('changeType',id)
             }
         },
 
@@ -49,7 +50,6 @@
 
 <style scoped>
 .menu{
-
     max-width: 16%;
     float: left;
     margin: 5px;
