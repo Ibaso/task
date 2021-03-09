@@ -16,12 +16,13 @@
     export default {
         methods: {
             pay() {
+                if(this.total>0){
                 if (confirm("To'lovni tasdiqlaysizmi?")) {
-                    print();
                     let empty = []
                     EventBus.$emit('payed', empty)
                 }
 
+            }
             }
         },
 

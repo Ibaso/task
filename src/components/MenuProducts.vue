@@ -27,7 +27,7 @@
             }
         },
         created() {
-            EventBus.$on('tulandi', array=>{
+            EventBus.$on('payed', array=>{
                 this.selectedArray = array
                 this.products.forEach(a=>{
                     a.count = 0
